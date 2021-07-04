@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Crear una plataforma informativa de como, donde, cuando y por qué donar sangre.  
+Crear una plataforma informativa de como, donde, cuando y por qué donar sangre.  Para incentiviar la donación de sangre y mostrar lo importante que es para salvar vidas.
 
 ##  TODO List
 Esta fase se hará lo princicpal para tener una página informativa.
@@ -21,3 +21,7 @@ En caso de  que la página tenga una buena iniciativa se desarrollará una plata
 - [ ] Comunicarse con centros de donación de sangre.
 - [ ] Integración de sistema de banco de sangre con base original.
 - [ ] Entregar transparencia sobre bancos de sangre.
+
+## Contacto
+
+dark.hoz at gmail.com
