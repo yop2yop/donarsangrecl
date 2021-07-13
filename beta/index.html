@@ -1,20 +1,127 @@
-<!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<link rel="shortcut icon" href="src/favicon.png" type="image/x-icon">
-<link rel="icon" href="src/favicon.png" type="image/x-icon">
+<!DOCTYPE html>
+<html lang="en">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://kit.fontawesome.com/21293fb991.js" crossorigin="anonymous"></script>
 
-<meta http-equiv = "refresh" content = "4; url = https://www.minsal.cl/dona-sangre/" />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title >Starter Template - Materialize</title>
 
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon">
+    <link rel="icon" href="src/favicon.png" type="image/x-icon">
+    
+</head>
 <body>
-    <div class="row">
-        <div class="col s12">
-            <div class="card red accent-4">
-                Pagina en construccion </br>
-                contactar con </br>
-                dark.hoz [at] gmail [dot] com
-            </div>
-        </div>
+    
+
+  <nav class="red darken-4" role="navigation">
+   
+    <div class="nav-wrapper container"><a id="logo-container" href="./index.html" class="brand-logo red-text"><i class="fas fa-tint"></i>Donar Sangre Chile</a>
+        
+    <!--  MENU WEB // MENU MOVIL  
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    -->
     </div>
-</body>
+
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center red-text">¡Bienvenido a DonarSangre.cl!</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Sea un voluntario informado</h5>
+      </div>
+       <!--
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>
+        -->
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text"><i class="far fa-hospital"></i>
+            </h2>
+            <h5 class="center">¿Donde donar?</h5>
+
+            <p class="light">No todos los hospitales reciben donacion para sangre, sólo se puede donar en centros de sangre por eso en el siguiente botón te mostraremos donde puedes donar.</p>
+            
+            <div class="row center">
+                <a href="./donde-donar.html" id="donde-button" class="btn-large waves-effect waves-light red">Lugares para donar</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text"><i class="fas fa-hands-helping"></i>
+            </h2>
+            <h5 class="center">Requisitos para donar</h5>
+
+            <p class="light">Para donar se necesita una serie de requisitos que cumplir para el cuidado al que recibe la donación, haz click en el siguiente botón para saber si cumples los requisitos.</p>
+            <div class="row center">
+                <a href="./requisitos-donar.html" id="requisitos-button" class="btn-large waves-effect waves-light red">Requisitos para donar</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text"><i class="fas fa-user-friends"></i>
+            </h2>
+            <h5 class="center">¿Quienes somos?</h5>
+
+            <p class="light">Somos un grupo de personas que sabemos lo importante que es donar sangre para poder salvar vidas, por lo que queremos crear un sitio donde se puedan informar sin dejar ninguna duda de cómo, donde y por qué donar.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer red darken-3">
+    <div class="container">
+      <div class="row">
+        <iframe height=800px width=1000px src="https://docs.google.com/forms/d/e/1FAIpQLScVoY_6qZ-oNyOT3maIXVqnZ___7ph5PwsSkxaSYXyjTtF8FA/viewform?usp=sf_link" title="Encuesta para mejorar la página"></iframe>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Hecho con <a class="red-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../../bin/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
