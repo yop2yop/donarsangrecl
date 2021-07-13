@@ -15,7 +15,7 @@ Esta fase se hará lo princicpal para tener una página informativa.
 - [ ] Recolección de información de centros para donar sangre.
 
 ## Buena recepción
-En caso de  que la página tenga una buena iniciativa se desarrollará una plataforma para reservar horas.
+En caso de  que la página tenga una buena iniciativa se podría dar la posibilidad de desarrollar una plataforma para reservar horas.
 
 - [ ] Migración a Django.
 - [ ] Comunicarse con centros de donación de sangre.
@@ -24,4 +24,4 @@ En caso de  que la página tenga una buena iniciativa se desarrollará una plata
 
 ## Contacto
 
-dark.hoz at gmail.com
+donarsangrecl at gmail.com
